@@ -1,3 +1,13 @@
+# 포트폴리오 2023
+
+기존의 마크업 언어 html 로 작업했던 포트폴리오 메인페이지를 react를 사용하여 리뉴얼 하였습니다.
+사용 기술 스택 : react, vanilla javascript, css
+
+## 포트폴리오 작업물 예정
+
+1. react 외에 typescript, redux, next를 활용한 작업물
+2. gh-pages 사용해서 배포까지 완료 예정.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
