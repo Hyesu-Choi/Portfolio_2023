@@ -109,7 +109,7 @@ a {
 }
 
 /* ==========HEADER========== */
-header {
+.header {
   position: fixed;
   top: 0;
   left: 0;
@@ -133,7 +133,7 @@ header {
 
 .nav-link {
   padding: 1.2rem;
-  color: var(--font-dark);
+  color: unset;
   text-decoration: none;
   transition: 0.5s;
   cursor: pointer;
@@ -141,7 +141,7 @@ header {
 .nav-link:hover {
   color: var(--point-color);
 }
-.active-link {
+.nav-active {
   color: var(--point-color);
   font-weight: 800;
   font-size: 1.3rem;
@@ -272,6 +272,7 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 55;
+  width: 740px;
 }
 
 .blink {
@@ -619,7 +620,7 @@ header {
 
 /* 태블릿 영역  */
 @media screen and (max-width: 768px) {
-  header {
+  .header {
     position: relative;
   }
   .text_box {
@@ -631,7 +632,7 @@ header {
     width: 30px;
   }
   /* 헤더 온오프, 토글 */
-  header {
+  .header {
     position: absolute;
     top: 0;
     left: 0;
