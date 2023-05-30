@@ -9,6 +9,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 
 import TypingEffect from "./components/TypingEffect/TypingEffect";
+import ScrollUp from "./components/ScrollUp/ScrollUp";
 
 function App() {
   //script part
@@ -20,29 +21,6 @@ function App() {
   // }
   // window.addEventListener("scroll", scrollHeader);
 
-  // // scroll up 버튼 보이기
-  // function scrollUp() {
-  //   const scrollUp = document.getElementById("scroll-up");
-  //   if (this.scrollY >= 350) scrollUp.classList.add("show-scroll");
-  //   else scrollUp.classList.remove("show-scroll");
-  // }
-  // window.addEventListener("scroll", scrollUp);
-
-  // 제이쿼리로 처리한 script. js로 처리할것!!
-  // 1. progress bar - circle로 처리된 부분..라이브러리 사용했었음. 리액트 라이브러리 찾아볼것
-  // 2. 모바일 영역 메뉴 토글 처리.
-
-  //   /* 모바일 영역 메뉴 토글 */
-  //   $(".menu_toggle").on("click", function () {
-  //     $(this).toggleClass("open");
-  //     $(".nav").toggleClass("open");
-  //   });
-  //   $(".nav_link").on("click", function () {
-  //     $(".menu_toggle").removeClass("open");
-  //     $(".nav").removeClass("open");
-  //   });
-  // });
-
   return (
     <div className="App">
       <Header />
@@ -51,10 +29,7 @@ function App() {
       <MyWorks />
       <Contact />
       <Footer />
-
-      <a href="#" className="scrollup" id="scroll-up">
-        <i className="ri-arrow-up-line"></i>
-      </a>
+      <ScrollUp />
     </div>
   );
 }
