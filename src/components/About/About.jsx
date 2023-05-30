@@ -1,10 +1,13 @@
 import React from "react";
+import { CircularProgressbar } from "react-circular-progressbar";
+import "react-circular-progressbar/dist/styles.css";
 
 const About = () => {
   return (
     <div id="about" className="about section">
       <div className="about-me-box">
         <h2>ABOUT ME</h2>
+
         <div className="about-me">
           <div className="emoji"></div>
           <div className="about-text">
@@ -31,38 +34,27 @@ const About = () => {
         <div className="skills-wrapper">
           <div className="card">
             <div className="circle">
-              <div className="bar"></div>
-              <div className="box">
-                <span></span>
-              </div>
+              <CircularProgressbar value={95} text={`95%`} />
             </div>
             <div className="text">HTML</div>
           </div>
           <div className="card css">
             <div className="circle">
-              <div className="bar"></div>
-              <div className="box">
-                <span></span>
-              </div>
+              <CircularProgressbar value={90} text={`90%`} />
             </div>
             <div className="text">CSS</div>
           </div>
           <div className="card js">
             <div className="circle">
-              <div className="bar"></div>
-              <div className="box">
-                <span></span>
-              </div>
+              <CircularProgressbar value={80} text={`80%`} />
             </div>
             <div className="text">Javascript / jQuery</div>
           </div>
           <div className="card ps">
             <div className="circle">
-              <div className="bar"></div>
-              <div className="box">
-                <span></span>
-              </div>
+              <CircularProgressbar value={80} text={`80%`} />
             </div>
+
             <div className="text">Photoshop / Illustrator</div>
           </div>
         </div>

@@ -506,6 +506,8 @@ a {
 /* ==========CONTACT========== */
 .contact {
   text-align: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
 .contact h1 {
   font-family: var(--font-serif-en);
@@ -581,7 +583,7 @@ a {
 /* ========== 미디어 쿼리 ========== */
 @media screen and (max-width: 1024px) {
   .section {
-    margin-top: 100px;
+    /* margin-top: 100px; */
     margin-bottom: 100px;
   }
   .text_box {
@@ -624,6 +626,7 @@ a {
     position: relative;
   }
   .text_box {
+    width: 540px;
     font-size: 1.25rem;
     line-height: 2rem;
   }
@@ -765,9 +768,11 @@ a {
 
 @media screen and (max-width: 426px) {
   .text_box {
-    font-size: 1.6rem;
+    width: 280px;
+    font-size: 1.2rem;
     line-height: 2rem;
   }
+
   .nav {
     width: 100%;
     padding: 25% 5%;
@@ -777,6 +782,9 @@ a {
   }
   .section {
     margin: 80px 3%;
+  }
+  .home {
+    margin: 0;
   }
   .emoji {
     width: 95%;
@@ -817,4 +825,12 @@ a {
     font-size: 0.7rem;
     line-height: 49px;
   }
+}
+
+/* circle progressbar style 수정  */
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: var(--point-color) !important;
+}
+.CircularProgressbar .CircularProgressbar-text {
+  fill: var(--point-color) !important;
 }
