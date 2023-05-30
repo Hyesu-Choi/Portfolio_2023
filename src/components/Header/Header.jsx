@@ -1,14 +1,39 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
 const Header = () => {
   const [click, setClick] = useState(false);
+
+  const [scrollY, setScrollY] = useState(0);
+  const [headerStatus, setHeaderStatus] = useState(false);
 
   const handleClick = () => {
     setClick(!click);
   };
 
+  const handleHeader = () => {
+    setScrollY(window.pageYOffset);
+    if (scrollY > 80) {
+      setHeaderStatus(true);
+    } else {
+      setHeaderStatus(false);
+    }
+  };
+
+  useEffect(() => {
+    const watch = () => {
+      window.addEventListener("scroll", handleHeader);
+    };
+    watch();
+    return () => {
+      window.removeEventListener("scroll", handleHeader);
+    };
+  });
+
   return (
-    <div id="header" className="header">
+    <div
+      id="header"
+      className={headerStatus ? "header scroll-header" : "header"}
+    >
       <ul className={click ? "nav open" : "nav"} id="nav">
         <Link to="home" smooth={true} spy={true} activeClass="nav-active">
           <li className="nav-link">HOME</li>
