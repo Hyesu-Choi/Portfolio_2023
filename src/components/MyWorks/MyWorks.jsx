@@ -4,6 +4,7 @@ import Cocktailer from "../../assets/cocktailer.jpg";
 import Apperal from "../../assets/apperal.jpg";
 import Yoga from "../../assets/Yoga.jpg";
 import Twg from "../../assets/twg.jpg";
+import PortfolioMain from "../../assets/portfolio.jpg";
 
 const MyWorks = () => {
   return (
@@ -111,6 +112,62 @@ const MyWorks = () => {
             </button>
             <button className="button">
               <a href="https://github.com/Hyesu-Choi/Yoga">작업코드 보기</a>
+            </button>
+          </div>
+        </div>
+
+        <div className="work-item">
+          <div className="work-img">
+            <img src={PortfolioMain} alt="" />
+          </div>
+
+          <div className="work-description">
+            <h1>05</h1>
+            <h2>Responsive Website</h2>
+            <h3>포트폴리오 메인 레뉴얼</h3>
+            <h4>기여도</h4>
+            <p>퍼블리싱 / 프론트엔드 프로젝트</p>
+            <h4>사용 스킬</h4>
+            <p>Js, React</p>
+            <h4>개발 페이지</h4>
+            <p>메인 페이지</p>
+            <h4>제작 기간</h4>
+            <p>1주 이내</p>
+            <button className="button">
+              <a href="https://hyesu-choi.github.io/Portfolio_2023/">
+                사이트 보기
+              </a>
+            </button>
+            <button className="button">
+              <a href="https://github.com/Hyesu-Choi/Portfolio_2023">
+                작업코드 보기
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <div className="work-item">
+          <div className="work-img">
+            <img src={PortfolioMain} alt="" />
+          </div>
+
+          <div className="work-description">
+            <h1>06</h1>
+            <h2>PC Website</h2>
+            <h3>Spotify</h3>
+            <h4>기여도</h4>
+            <p>퍼블리싱 / 프론트엔드 프로젝트</p>
+            <h4>사용 스킬</h4>
+            <p>React, Context Api, Spotify Api</p>
+            <h4>개발 페이지</h4>
+            <p>메인 페이지</p>
+            <h4>제작 기간</h4>
+            <p>1주 이내</p>
+            <button className="button">
+              <a href="https://hyesu-choi.github.io/musicApp/">사이트 보기</a>
+            </button>
+            <button className="button">
+              <a href="https://github.com/Hyesu-Choi/musicApp">작업코드 보기</a>
             </button>
           </div>
         </div>
