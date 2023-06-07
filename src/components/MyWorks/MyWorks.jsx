@@ -5,6 +5,7 @@ import Apperal from "../../assets/apperal.jpg";
 import Yoga from "../../assets/Yoga.jpg";
 import Twg from "../../assets/twg.jpg";
 import PortfolioMain from "../../assets/portfolio.jpg";
+import Spotify from "../../assets/spotify.jpg";
 
 const MyWorks = () => {
   return (
@@ -148,7 +149,7 @@ const MyWorks = () => {
 
         <div className="work-item">
           <div className="work-img">
-            <img src={PortfolioMain} alt="" />
+            <img src={Spotify} alt="" />
           </div>
 
           <div className="work-description">
