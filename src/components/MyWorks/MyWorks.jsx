@@ -6,6 +6,7 @@ import Yoga from "../../assets/Yoga.jpg";
 import Twg from "../../assets/twg.jpg";
 import PortfolioMain from "../../assets/portfolio.jpg";
 import Spotify from "../../assets/spotify.jpg";
+import Youtube from "../../assets/youtube.jpg";
 
 const MyWorks = () => {
   return (
@@ -151,7 +152,6 @@ const MyWorks = () => {
           <div className="work-img">
             <img src={Spotify} alt="" />
           </div>
-
           <div className="work-description">
             <h1>06</h1>
             <h2>PC Website</h2>
@@ -173,17 +173,22 @@ const MyWorks = () => {
               <a href="https://github.com/Hyesu-Choi/musicApp">작업코드 보기</a>
             </button>
           </div>
+        </div>
 
+        <div className="work-item">
+          <div className="work-img">
+            <img src={Youtube} alt="" />
+          </div>
           <div className="work-description">
-            <h1>07</h1>
+            <h1>06</h1>
             <h2>PC Website</h2>
             <h3>Youtube</h3>
             <h4>기여도</h4>
             <p>퍼블리싱 / 프론트엔드 프로젝트</p>
             <h4>사용 스킬</h4>
-            <p>React, Typescript, Spotify Api, Redux</p>
+            <p>React, Typescript, Redux, YoutubeApi</p>
             <h4>개발 페이지</h4>
-            <p>메인 페이지, 비디오상세보기, 비디오검색</p>
+            <p>메인 페이지, 비디오 상세보기, 비디오 검색</p>
             <h4>제작 기간</h4>
             <p>1주 이내</p>
             <button className="button">
