@@ -165,7 +165,9 @@ const MyWorks = () => {
             <h4>제작 기간</h4>
             <p>1주 이내</p>
             <button className="button">
-              <a href="https://hyesu-choi.github.io/musicApp/">사이트 보기</a>
+              <a href="https://extraordinary-liger-034b7a.netlify.app">
+                사이트 보기
+              </a>
             </button>
             <button className="button">
               <a href="https://github.com/Hyesu-Choi/musicApp">작업코드 보기</a>
