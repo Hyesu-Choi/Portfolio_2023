@@ -173,6 +173,28 @@ const MyWorks = () => {
               <a href="https://github.com/Hyesu-Choi/musicApp">작업코드 보기</a>
             </button>
           </div>
+
+          <div className="work-description">
+            <h1>07</h1>
+            <h2>PC Website</h2>
+            <h3>Youtube</h3>
+            <h4>기여도</h4>
+            <p>퍼블리싱 / 프론트엔드 프로젝트</p>
+            <h4>사용 스킬</h4>
+            <p>React, Typescript, Spotify Api, Redux</p>
+            <h4>개발 페이지</h4>
+            <p>메인 페이지, 비디오상세보기, 비디오검색</p>
+            <h4>제작 기간</h4>
+            <p>1주 이내</p>
+            <button className="button">
+              <a href="https://tranquil-belekoy-64d7e3.netlify.app">
+                사이트 보기
+              </a>
+            </button>
+            <button className="button">
+              <a href="https://github.com/Hyesu-Choi/VideoApp">작업코드 보기</a>
+            </button>
+          </div>
         </div>
       </div>
     </div>
