@@ -16,7 +16,6 @@ const MyWorks = () => {
           <div className="work-img">
             <img src={Cocktailer} alt="" />
           </div>
-
           <div className="work-description">
             <h1>01</h1>
             <h2>Responsive Website</h2>
@@ -44,7 +43,6 @@ const MyWorks = () => {
           <div className="work-img">
             <img src={Apperal} alt="" />
           </div>
-
           <div className="work-description">
             <h1>02</h1>
             <h2>Desktop Website</h2>
@@ -70,7 +68,6 @@ const MyWorks = () => {
           <div className="work-img">
             <img src={Twg} alt="" />
           </div>
-
           <div className="work-description">
             <h1>03</h1>
             <h2>Responsive Website</h2>
@@ -96,7 +93,6 @@ const MyWorks = () => {
           <div className="work-img">
             <img src={Yoga} alt="" />
           </div>
-
           <div className="work-description">
             <h1>04</h1>
             <h2>PC Website</h2>
@@ -122,11 +118,10 @@ const MyWorks = () => {
           <div className="work-img">
             <img src={PortfolioMain} alt="" />
           </div>
-
           <div className="work-description">
             <h1>05</h1>
             <h2>Responsive Website</h2>
-            <h3>포트폴리오 메인 레뉴얼</h3>
+            <h3>포트폴리오 메인 리뉴얼</h3>
             <h4>기여도</h4>
             <p>퍼블리싱 / 프론트엔드 프로젝트</p>
             <h4>사용 스킬</h4>
@@ -180,7 +175,7 @@ const MyWorks = () => {
             <img src={Youtube} alt="" />
           </div>
           <div className="work-description">
-            <h1>06</h1>
+            <h1>07</h1>
             <h2>PC Website</h2>
             <h3>Youtube</h3>
             <h4>기여도</h4>
