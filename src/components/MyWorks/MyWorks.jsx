@@ -9,7 +9,7 @@ import Spotify from "../../assets/spotify.jpg";
 import Youtube from "../../assets/youtube.jpg";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { FreeMode, Navigation, Thumbs, Pagination } from "swiper";
+import { FreeMode, Navigation, Thumbs, Pagination, Autoplay } from "swiper";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -30,7 +30,8 @@ const MyWorks = () => {
           clickable: true,
         }}
         navigation={true}
-        modules={[Pagination, Navigation]}
+        autoplay={{ delay: 3000, disableOnInteraction: false }}
+        modules={[Pagination, Navigation, Autoplay]}
         className="mySwiper"
       >
         <SwiperSlide>
