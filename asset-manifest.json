@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio_2023/static/css/main.b86a77ac.css",
-    "main.js": "/Portfolio_2023/static/js/main.c263e9c9.js",
+    "main.js": "/Portfolio_2023/static/js/main.40dd8b7d.js",
     "static/js/787.b67a0dae.chunk.js": "/Portfolio_2023/static/js/787.b67a0dae.chunk.js",
     "static/media/youtube.jpg": "/Portfolio_2023/static/media/youtube.27cb8551538a341d5d28.jpg",
     "static/media/skills-react.png": "/Portfolio_2023/static/media/skills-react.2f2532db663fd5ec5f95.png",
@@ -9,6 +9,7 @@
     "static/media/emoji.png": "/Portfolio_2023/static/media/emoji.60aa96f0d41234f8ee88.png",
     "static/media/apperal.jpg": "/Portfolio_2023/static/media/apperal.cc041e514b90c8f23b52.jpg",
     "static/media/portfolio.jpg": "/Portfolio_2023/static/media/portfolio.714a1d06243c12be2ab2.jpg",
+    "static/media/movieApp.jpg": "/Portfolio_2023/static/media/movieApp.22cde16457797e7477b3.jpg",
     "static/media/cocktailer.jpg": "/Portfolio_2023/static/media/cocktailer.b885b86943f6ddbfe6c1.jpg",
     "static/media/cloud1.png": "/Portfolio_2023/static/media/cloud1.13933c5429d843fc49df.png",
     "static/media/twg.jpg": "/Portfolio_2023/static/media/twg.891ba391a615e8fe24ed.jpg",
@@ -23,11 +24,11 @@
     "static/media/skills-js.png": "/Portfolio_2023/static/media/skills-js.3cfe0dc546a132f4fa69.png",
     "index.html": "/Portfolio_2023/index.html",
     "main.b86a77ac.css.map": "/Portfolio_2023/static/css/main.b86a77ac.css.map",
-    "main.c263e9c9.js.map": "/Portfolio_2023/static/js/main.c263e9c9.js.map",
+    "main.40dd8b7d.js.map": "/Portfolio_2023/static/js/main.40dd8b7d.js.map",
     "787.b67a0dae.chunk.js.map": "/Portfolio_2023/static/js/787.b67a0dae.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b86a77ac.css",
-    "static/js/main.c263e9c9.js"
+    "static/js/main.40dd8b7d.js"
   ]
 }
