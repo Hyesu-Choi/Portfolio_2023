@@ -22,7 +22,7 @@ const Home = () => {
         {/* <span className="text"></span> */}
 
         <TypingEffect
-          text="안녕하세요, 프론트엔드 개발 / 퍼블리셔 최혜수 입니다. Welcome to my Portfolio."
+          text="안녕하세요, 프론트엔드 개발자 최혜수 입니다. Welcome to my Portfolio."
           speed={300}
         />
         <span className="blink">|</span>
