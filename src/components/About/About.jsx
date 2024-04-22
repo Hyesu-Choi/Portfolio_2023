@@ -24,11 +24,10 @@ const About = () => {
           <div className="emoji"></div>
           <div className="about-text">
             <p>
-              안녕하세요 프론트엔드 개발 / 퍼블리셔 최혜수입니다. <br />
-              HTML의 구조를 잘 이해하고 있으며, 웹 접근성과 웹표준에 맞는
-              마크업을 구현하고 있습니다. <br />
-              디자인의 의도에 맞는 CSS를 구현하며, JavaScript, jQury 문법을
-              이해하고 있습니다.
+              안녕하세요 2년차 프론트엔드 개발자 최혜수 입니다.  <br />
+              HTML, CSS, Javascipt 를 기반으로 웹 프론트엔드 개발을 주로 하고 있습니다. <br />
+              사용자 중심의 UI/UX 개발을 추구하며, 웹접근성과 반응형 디자인에도 깊은 관심을 가지고 있습니다. <br />
+              웹 성능 최적화와 사용자 경험 개선을 위해 끊임없이 연구하고 공부하고 있습니다.
             </p>
             <button className="button resume-down-button">
               <a download="" href="./assets/_2023.pdf">
