@@ -39,7 +39,7 @@ const Home = () => {
           className="github"
         ></a>
         <a
-          href="https://blog.naver.com/hs1263"
+          href="https://velog.io/@hs_choi"
           target="_blank"
           className="blog"
         ></a>
